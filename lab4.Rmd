@@ -204,7 +204,8 @@ to the GitHub repository for this lab
 and paste the two links below this question.
 ```
 
-YOUR ANSWER GOES HERE
+HTML Link: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.html
+PDF Link: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.pdf
 
 ```{block, type="alert alert-info"}
 #### Question 8
