@@ -224,8 +224,8 @@ rubric={mechanics:6}
    Paste a link to these files as your answer below.
 ```
 
-Link to .Rmd File: 
-Link to HTML File: 
+Link to .Rmd File: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.Rmd
+Link to HTML File: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.html
 
 ```{block, type="alert alert-info"}
 #### Question 9 (Optional)
