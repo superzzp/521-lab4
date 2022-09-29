@@ -1,5 +1,7 @@
 ---
 title: "Lab 4 - Introduction to RStudio and R Markdown. Presentations"
+author: "Zhipian Zhang"
+date: "2022-10-01"
 output:
   html_document:
     toc: true
@@ -65,7 +67,7 @@ To render the HTML files we are going to create, the first step is to activate G
 
 ```
 
-YOUR ANSWER GOES HERE
+<https://superzzp.github.io/521-lab4/>
 
 ```{block, type="alert alert-info"}
 #### Question 2
@@ -77,7 +79,9 @@ but it should have an output).
 Ensure that you can render/knit the document after you add that chunk.
 ```
 
-YOUR ANSWER GOES HERE
+```{r}
+c("question", "2")
+```
 
 ```{block, type="alert alert-info"}
 #### Question 3
@@ -90,7 +94,9 @@ Don't forget to knit/render the document
 after you make this change to ensure everything is still working.
 ```
 
-YOUR ANSWER GOES HERE
+```{r Question_3}
+c("question", "3")
+```
 
 ```{block, type="alert alert-info"}
 #### Question 4
@@ -100,9 +106,13 @@ Create a new code chunk that uses a code chunk option.
 Write out in your own words what the code chunk option is doing.
 ```
 
-YOUR ANSWER GOES HERE
+```{r, results='hide'}
+# a block of code that is executed, but with the option "results = hide"
+hidden_result <- 1 + 10
+print(hidden_result)
+```
 
-#### Multiple code chunk options
+The result of the computation above is hidden and not printed \#### Multiple code chunk options
 
 To have multiple code chunk options you separate them by a comma. For example, if in addition to suppressing warnings, we want to run the code but not output the results, then we can add the `include = FALSE` argument to the code chunk after the `warning = FALSE` option.
 
@@ -115,7 +125,12 @@ At least one must be different to the ones mentioned above.
 Write in your own words what each code chunk option is doing.
 ```
 
-YOUR ANSWER GOES HERE
+```{r, comment="||>>>>", results="hold"}
+1 + 1
+2 + 3
+```
+
+I set the options to add a special comment "\|\|\>\>\>\>" at the start of each output, and also set the results = "hold" so the source block is shown together instead of being shown line by line as the code is being evaluated.
 
 ### 1.5. YAML Header and document output options
 
@@ -158,7 +173,10 @@ and edit it so that you include an `author` (yourself) and a `date` (lab due dat
 Include what you added below here as well as a fenced Markdown code block.
 ```
 
-YOUR ANSWER GOES HERE
+```{block}
+author: "Zhipian Zhang"
+date: "2022-10-01"
+```
 
 ### Creating R Markdown documents
 
