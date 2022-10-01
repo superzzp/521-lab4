@@ -486,8 +486,10 @@ output). Ensure that you can render/knit the document after you add that
 chunk.
 </p>
 </div>
-<pre class="r"><code>c(&quot;question&quot;, &quot;2&quot;)</code></pre>
-<pre><code>## [1] &quot;question&quot; &quot;2&quot;</code></pre>
+<pre class="r"><code>#get standard deviation of a vector
+q2vec &lt;- c(88, 29, 10, 239)
+sd(q2vec)</code></pre>
+<pre><code>## [1] 103.7899</code></pre>
 <div class="alert alert-info">
 <h4 id="question-3">
 Question 3
@@ -502,8 +504,10 @@ Don’t forget to knit/render the document after you make this change to
 ensure everything is still working.
 </p>
 </div>
-<pre class="r"><code>c(&quot;question&quot;, &quot;3&quot;)</code></pre>
-<pre><code>## [1] &quot;question&quot; &quot;3&quot;</code></pre>
+<pre class="r"><code>#get sum of a vector
+q3vec &lt;- c(88, 29, 10, 239)
+sum(q3vec)</code></pre>
+<pre><code>## [1] 366</code></pre>
 <div class="alert alert-info">
 <h4 id="question-4">
 Question 4
@@ -516,11 +520,12 @@ Create a new code chunk that uses a code chunk option. Write out in your
 own words what the code chunk option is doing.
 </p>
 </div>
-<pre class="r"><code># a block of code that is executed, but with the option &quot;results = hide&quot;
-hidden_result &lt;- 1 + 10
+<pre class="r"><code>hidden_result &lt;- 1 + 10
 print(hidden_result)</code></pre>
-<p>The result of the computation above is hidden and not printed ####
-Multiple code chunk options</p>
+<p>I set the option of “results = hide”, so the result of the
+computation above is hidden and not printed.</p>
+<div id="multiple-code-chunk-options" class="section level4">
+<h4>Multiple code chunk options</h4>
 <p>To have multiple code chunk options you separate them by a comma. For
 example, if in addition to suppressing warnings, we want to run the code
 but not output the results, then we can add the
@@ -547,6 +552,7 @@ own words what each code chunk option is doing.
 the start of each output, and also set the results = “hold” so the
 source block is shown together instead of being shown line by line as
 the code is being evaluated.</p>
+</div>
 </div>
 <div id="yaml-header-and-document-output-options" class="section level3">
 <h3>1.5. YAML Header and document output options</h3>
@@ -639,8 +645,8 @@ different output. Add and commit that rendered both the
 for this lab and paste the two links below this question.
 </p>
 </div>
-<p>HTML Link: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.html" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.html</a>
-PDF Link: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.pdf" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.pdf</a></p>
+<p>HTML Link: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.html" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.html</a></p>
+<p>PDF Link: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.pdf" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.pdf</a></p>
 <div class="alert alert-info">
 <h4 id="question-8">
 Question 8
@@ -669,8 +675,8 @@ these files as your answer below.
 </li>
 </ol>
 </div>
-<p>Link to .Rmd File: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.Rmd" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.Rmd</a>
-Link to HTML File: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.html" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.html</a></p>
+<p>Link to .Rmd File: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.Rmd" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.Rmd</a></p>
+<p>Link to HTML File: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.html" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.html</a></p>
 <div class="alert alert-info">
 <h4 id="question-9-optional">
 Question 9 (Optional)
@@ -689,8 +695,8 @@ rendered?
 </li>
 </ol>
 </div>
-<p>Link to the .md file: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Github%20Docs%20Question9.md" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Github%20Docs%20Question9.md</a>
-I see the .md file properly rendered on Github. It is rendered as a
+<p>Link to the .md file: <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Github%20Docs%20Question9.md" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Github%20Docs%20Question9.md</a></p>
+<p>I see the .md file properly rendered on Github. It is rendered as a
 markdown file, converted to HTML format and displayed on the
 webpage.</p>
 <div class="alert alert-info">
@@ -730,7 +736,7 @@ Activate GitHub pages and paste the link below.
 </li>
 </ol>
 </div>
-<p>YOUR ANSWER GOES HERE</p>
+<p>Link to Xaringan presentation: <a href="https://superzzp.github.io/521-lab4/Slides.html" class="uri">https://superzzp.github.io/521-lab4/Slides.html</a></p>
 <div class="alert alert-info">
 <h4 id="challenging-question-11">
 (Challenging) Question 11

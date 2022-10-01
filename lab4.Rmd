@@ -80,7 +80,9 @@ Ensure that you can render/knit the document after you add that chunk.
 ```
 
 ```{r}
-c("question", "2")
+#get standard deviation of a vector
+q2vec <- c(88, 29, 10, 239)
+sd(q2vec)
 ```
 
 ```{block, type="alert alert-info"}
@@ -95,7 +97,9 @@ after you make this change to ensure everything is still working.
 ```
 
 ```{r Question_3}
-c("question", "3")
+#get sum of a vector
+q3vec <- c(88, 29, 10, 239)
+sum(q3vec)
 ```
 
 ```{block, type="alert alert-info"}
@@ -206,6 +210,7 @@ and paste the two links below this question.
 ```
 
 HTML Link: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.html
+
 PDF Link: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question7.pdf
 
 ```{block, type="alert alert-info"}
@@ -226,6 +231,7 @@ rubric={mechanics:6}
 ```
 
 Link to .Rmd File: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.Rmd
+
 Link to HTML File: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Question8.html
 
 ```{block, type="alert alert-info"}
@@ -241,6 +247,7 @@ rubric={mechanics:1,reasoning:1}
 ```
 
 Link to the .md file: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Github%20Docs%20Question9.md
+
 I see the .md file properly rendered on Github. It is rendered as a markdown file, converted to HTML format and displayed on the webpage.
 
 ```{block, type="alert alert-info"}
