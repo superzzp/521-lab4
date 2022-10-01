@@ -239,7 +239,8 @@ rubric={mechanics:1,reasoning:1}
    What do you see? How is it rendered?
 ```
 
-YOUR ANSWER GOES HERE
+Link to the .md file: https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_zhipian/blob/master/Github%20Docs%20Question9.md
+I see the .md file properly rendered on Github. It is rendered as a markdown file, converted to HTML format and displayed on the webpage.
 
 ```{block, type="alert alert-info"}
 #### Question 10
