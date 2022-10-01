@@ -1,0 +1,51 @@
+---
+title: "521 Lab 4 Presentation"
+subtitle: "Using xaringan to create slides"
+author: "Zhipian Zhang"
+date: "2022/10/01 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+class: inverse, center, middle
+
+---
+# Welcome
+
+Welcome to the presentation!
+---
+
+# R Code - Get Max
+
+```{r comment='#'}
+#Get the maximum value from the vector:
+max(c(10,9,231,302, -57))
+```
+
+---
+
+# R Code - Tables
+
+A sample table showing the ratings of restaurant in Vancouver
+
+```{r}
+df <- data.frame(
+    name = c("Joe Fortes", "Open Kitchen", "Miku"),
+    on_campus = c(FALSE, TRUE, FALSE),
+    ratings = c(4.5, 2.0, 4.5)
+)
+knitr::kable(df, format = 'html')
+```
+
+---
+class: center, middle
+
+# DSCI 521 is super fun
+
+### Thank you for looking at this presentation
+
+

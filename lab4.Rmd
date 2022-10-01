@@ -107,12 +107,13 @@ Write out in your own words what the code chunk option is doing.
 ```
 
 ```{r, results='hide'}
-# a block of code that is executed, but with the option "results = hide"
 hidden_result <- 1 + 10
 print(hidden_result)
 ```
 
-The result of the computation above is hidden and not printed \#### Multiple code chunk options
+I set the option of "results = hide", so the result of the computation above is hidden and not printed.
+
+#### Multiple code chunk options
 
 To have multiple code chunk options you separate them by a comma. For example, if in addition to suppressing warnings, we want to run the code but not output the results, then we can add the `include = FALSE` argument to the code chunk after the `warning = FALSE` option.
 
