@@ -268,7 +268,7 @@ rubric={mechanics:6}
 5. Activate GitHub pages and paste the link below.
 ```
 
-YOUR ANSWER GOES HERE
+Link to Xaringan presentation: https://superzzp.github.io/521-lab4/Slides.html
 
 ```{block, type="alert alert-info"}
 #### (Challenging) Question 11
